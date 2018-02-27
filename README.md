@@ -10,7 +10,7 @@ Created by [Cairan Steverink](https://cairansteverink.nl).
 
 ### Prerequisites
 
-**Before you begin:** Set up your Gitlab repository as normal and clone it to your desktop.
+**Before you begin:** Set up your Gitlab repository as normal and clone it to your desktop. You can go ahead and add your Unreal Engine 4 project to the repository.
 
 **Note:** This documentation is solely meant to configure a Gitlab runner on Windows servers and desktops.
 We will configure our pipeline so that it will only archive our builds during scheduled builds and manual builds started through the Gitlab interface. This way we prevent flooding our disk space with archived builds.
