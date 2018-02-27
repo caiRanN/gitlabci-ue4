@@ -89,4 +89,6 @@ package:
 
 Commit the file and your pipeline should be triggered! Gitlab will now build and compile your project everytime files are pushed to your repository. It will archive the build only when triggered through the web interface or on a scheduled time.
 
+Finaly you might want to add [Slack Notifications](https://docs.gitlab.com/ee/user/project/integrations/slack.html).
+
 If you have any questions, suggestions or feedback feel free to contact me.
