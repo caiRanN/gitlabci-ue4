@@ -41,7 +41,7 @@ Add the following to the .gitlab-ci.yml file. Commit the file and your pipeline 
 ```yml
 variables:
   GIT_STRATEGY: none        # we disable fetch, clone or checkout for every job
-  GIT_CHECKOUT: "false"     # as we only want it to happen once in the preperation stage
+  GIT_CHECKOUT: "false"     # as we only want to checkout or fetch in the preperation stage
 
 stages:
   - preperations
