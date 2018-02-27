@@ -4,7 +4,7 @@ This tutorial provides documentation and resources on how to configure Gitlab CI
 
 This tutorial, repository and files are based on the great [Jenkins tutorial](https://github.com/skymapgames/jenkins-ue4), check it out if you would like to use Jenkins instead!
 
-Created by [Cairan Steverink](https://cairansteverink.nl).
+Created by [Cairan Steverink](http://cairansteverink.nl/).
 
 ---
 
