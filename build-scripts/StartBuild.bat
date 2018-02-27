@@ -1,0 +1,1 @@
+"C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\UnrealBuildTool.exe" -projectfiles -project="%CI_PROJECT_DIR%\PROJECT_NAME.uproject" -game -rocket -progress
