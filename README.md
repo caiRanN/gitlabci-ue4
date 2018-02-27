@@ -38,8 +38,8 @@ Add the following to the .gitlab-ci.yml file. Commit the file and your pipeline 
 
 ```yml
 variables:
-  GIT_STRATEGY: none
-  GIT_CHECKOUT: "false"
+  GIT_STRATEGY: none        # we disable fetch, clone or checkout for every job
+  GIT_CHECKOUT: "false"     # as we only want it to happen once in the preperation stage
 
 stages:
   - preperations
@@ -74,8 +74,8 @@ cook:
 package:
   stage: package
   only:
-    - web
-    - schedules
+    - web                 # only archive when started through the web interface
+    - schedules           # only archive when started at a specific schedule
   script:
     - echo "Adding build to the artifacts"
     - call C:\PATH_TO_FILES\Archive.bat
