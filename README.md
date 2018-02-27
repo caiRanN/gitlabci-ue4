@@ -36,7 +36,7 @@ Make sure you replace PROJECT_NAME inside the scripts with the name of your proj
 
 Once we have our runner set up we can configure our pipeline. Start by creating a **.gitlab-ci.yml** file inside your repository. This file tells the Gitlab runner what to do when a pipeline is triggered.
 
-Add the following to the .gitlab-ci.yml file. Commit the file and your pipeline should be triggered. If you have any questions, suggestions or feedback feel free to contact me.
+Add the following to the .gitlab-ci.yml file.
 
 ```yml
 variables:
@@ -87,4 +87,6 @@ package:
     expire_in: 5 days
 ```
 
+Commit the file and your pipeline should be triggered! Gitlab will now build and compile your project everytime files are pushed to your repository. It will archive the build only when triggered through the web interface or on a scheduled time.
 
+If you have any questions, suggestions or feedback feel free to contact me.
