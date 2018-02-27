@@ -2,6 +2,8 @@
 
 This tutorial provides documentation and resources on how to configure Gitlab CI to compile and build your Unreal Engine 4 project.
 
+This tutorial, repository and files are based on the great [Jenkins tutorial](https://github.com/skymapgames/jenkins-ue4), check it out if you would like to use Jenkins instead!
+
 Created by [Cairan Steverink](https://cairansteverink.nl).
 
 ---
