@@ -27,7 +27,7 @@ Now we need to register our runner. Inside your Gitlab project go to **Settings 
 
 Follow the registration progress described in the [documentation](https://docs.gitlab.com/runner/register/#windows) but **do not enter any tags** when prompted. Finaly pick **Shell** as your executor after which we should have our runner set up.
 
-#### Register the Runner
+#### Configure the Build Scripts 
 
 Download the build scripts and move them to another folder. For example: C:/BuildScripts/.
 Make sure you replace PROJECT_NAME inside the scripts with the name of your project.
